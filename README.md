@@ -23,6 +23,43 @@ Things you may want to cover:
 
 * ...
 
+# Organizing your styles using tachyon
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Because there are many classes applied to elements when using tachyon, it can be helpful to have a convention in place for dealing with what order to add classes to an element.
+
+I've come up with the following list:
+
+* semantic 
+* display 
+* positioning
+* floats
+* dimensions 
+* margins
+* border 
+* padding 
+* text alignment 
+* text color/size
+* behavior
+
+Semantic classes are classes that describe what a thing actually is (button, link, navbar, etc.)
+
+Display classes are the ones that control the display property of the element:
+db  - display block
+dn  - display none 
+dib - display inline block
+dt  - display table
+dtc - display table cell
+
+Positioning classes controller the position property of the element: 
+static      - position static 
+relative    - position relative 
+absolute    - position absolute
+fixed       - position fixed
+
+Dimension classes set the height and width of the element:
+
+
+
+
+
+
